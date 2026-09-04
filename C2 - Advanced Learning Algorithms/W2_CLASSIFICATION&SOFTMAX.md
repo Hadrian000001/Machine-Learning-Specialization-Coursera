@@ -21,7 +21,7 @@ Before writing any code, look at your `y` labels and ask:
 ## 2. The "Big Three" Code Templates (Copy-Paste Ready)
 
 ### A) Standard Multi-Class (Recommended)
-*Use this for 95% of your projects (Digits, Objects, Iris, etc.).*
+*Use this for 95% of your projects (Digits, Objects, Iris, etc.). (or np.argmax(logits, axis=1))*
 
 ```python
 model = Sequential([
